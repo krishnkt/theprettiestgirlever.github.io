@@ -1,32 +1,45 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Prettiest Girl Ever</title>
+
+  <!-- Google Font for Romantic Fancy Text -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
   <style>
-    body {
+    html, body {
       margin: 0;
-      background: #000;
-      color: #fff;
-      font-family: sans-serif;
-      text-align: center;
+      padding: 0;
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; /* no scroll */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Great Vibes', cursive;
     }
-    img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 20px;
-      margin-top: 50px;
-    }
+
     h1 {
-      font-size: 2rem;
-      margin-top: 30px;
+      font-size: 3rem;
+      color: #e91e63; /* romantic pink */
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 90vw;
+      max-height: 70vh;
+      border-radius: 30px; /* curved borders */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-  <h1>She is the prettiest girl ever ❤️</h1>
+  <h1>You're the most beautiful girl I know ❤️</h1>
   <img src="naya.jpg" alt="My beautiful girlfriend" />
 </body>
 </html>
